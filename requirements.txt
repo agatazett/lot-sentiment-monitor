@@ -1,0 +1,11 @@
+streamlit>=1.32.0
+pandas>=2.0.0
+plotly>=5.18.0
+
+# ── Opcjonalne – prawdziwy model transformerowy ────────────────────────────
+# Odkomentuj poniższe jeśli chcesz użyć HerBERT / XLM-RoBERTa
+# (wymaga ~2 GB RAM i kilku minut przy pierwszym uruchomieniu):
+#
+# transformers>=4.38.0
+# torch>=2.2.0
+# sentencepiece>=0.1.99
