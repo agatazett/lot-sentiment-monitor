@@ -1,11 +1,15 @@
 streamlit>=1.32.0
 pandas>=2.0.0
 plotly>=5.18.0
+requests>=2.31.0
 
-# ── Opcjonalne – prawdziwy model transformerowy ────────────────────────────
-# Odkomentuj poniższe jeśli chcesz użyć HerBERT / XLM-RoBERTa
-# (wymaga ~2 GB RAM i kilku minut przy pierwszym uruchomieniu):
-#
+# Twitter/X API (opcjonalne – tylko jeśli masz klucz)
+tweepy>=4.14.0
+
+# Brand24 CSV import
+python-dotenv>=1.0.0
+
+# Opcjonalne – prawdziwy model NLP:
 # transformers>=4.38.0
 # torch>=2.2.0
 # sentencepiece>=0.1.99
